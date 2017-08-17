@@ -1,0 +1,5 @@
+1)SELECT * FROM eamployee;
+2)SELECT project.id, project.name, team.name FROM project INNER JOIN team ON project.teamid=team.id;
+3)SELECT doj FROM employee WHERE MONTH(doj) = 6;
+4)select salary from employee orderby desc limit 5;
+5)select * from employee order by salary;
